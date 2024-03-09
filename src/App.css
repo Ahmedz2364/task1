@@ -1,0 +1,69 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://img.freepik.com/free-vector/gorgeous-clouds-background-with-blue-sky-design_1017-25501.jpg);
+
+}
+.container {
+  width: 320px;
+  height: 330px;
+  background: rgba(89, 157, 230, 0.459);box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 20px;
+  backdrop-filter: blur(12px);
+  border: 5px solid rgba(255, 255green, 255blue, 0.2alpha);
+  padding: 20px 20px;
+  gap: 10px;
+  display: block;
+  font-family:  'Poppins', sans-serif;
+}
+.button{
+  background-color:  rgb(62, 124, 190);
+  border-radius: 12px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 100px;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+
+}
+.button{
+  margin-top: 15px;
+}
+h2{
+  justify-content: center;
+  align-items: center;
+  margin: 12px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color:  rgb(64, 136, 214);
+}
+.city{
+  background-color:  rgb(64, 136, 214);
+  border-radius: 10px;
+  margin: 20px;
+  padding: 8px;
+  border: none;
+  color: black;
+}
+#city{
+  border-radius:9px ;
+  padding: 7px;
+  margin: 22px;
+  border: none;
+
+}
+.sty{
+  margin-top: 40px;
+}
